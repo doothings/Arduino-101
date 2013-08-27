@@ -1,0 +1,7 @@
+Agenda		Duration(mins)	CodeBase	Owner
+Introduction	30
+LED Blink	30
+Remote 		30
+LDR		30
+LCD Display	30
+AC Load		30

@@ -1,0 +1,6 @@
+Item			Quantity
+Induino Kits		12
+Ethernet Shield		12
+Bulbs/Sockets		12
+LEDs			20
+
