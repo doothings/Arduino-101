@@ -4,4 +4,3 @@ LED Blink	30
 Remote 		30
 LDR		30
 LCD Display	30
-AC Load		30

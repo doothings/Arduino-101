@@ -1,5 +1,5 @@
  int LDR =A0; //Analog Pin 0
- int LED=8; //digital pin8
+ int LED=6; //digital pin8
  void setup()
  {
    Serial.begin(9600); //Starting Serial Port for Output
@@ -11,7 +11,7 @@
    int LDR_Reading = analogRead(LDR);
    
    Serial.println(LDR_Reading);
-   if(LDR_Reading > 450) // Checks intesity of Light
+   if(LDR_Reading > 60) // Checks intesity of Light
    {
      digitalWrite(LED,LOW);
    }
@@ -19,5 +19,5 @@
    {
      digitalWrite(LED,HIGH);
    }
-   delay(500);
+   delay(1000);
  }
