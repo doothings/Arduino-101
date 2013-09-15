@@ -11,7 +11,7 @@
    int LDR_Reading = analogRead(LDR);
    
    Serial.println(LDR_Reading);
-   if(LDR_Reading > 60) // Checks intesity of Light
+   if(LDR_Reading > 90) // Checks intesity of Light
    {
      digitalWrite(LED,LOW);
    }
